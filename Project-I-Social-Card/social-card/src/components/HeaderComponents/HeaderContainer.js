@@ -6,11 +6,13 @@ import './Header.css';
 
 function HeaderContainer() {
   return (
-    <React.Fragment>
+    <div className="header">
       <ImageThumbnail />
-      <HeaderTitle />
-      <HeaderContent />
-    </React.Fragment>
+      <div className="header-text">
+        <HeaderTitle />
+        <HeaderContent />
+      </div>
+    </div>
   )
 }
 
