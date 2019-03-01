@@ -5,10 +5,10 @@ import './Card.css';
 
 function CardContainer() {
   return (
-    <React.Fragment>
+    <div className="card">
     <CardBanner />
     <CardContent />
-    </React.Fragment>
+    </div>
   )
 }
 
