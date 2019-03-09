@@ -1,1 +1,21 @@
-/* All styles for your header Components live here */
+.header {
+  display: flex;
+  justify-content: center;
+}
+
+.header-img {
+  height: 75px;
+  width: auto;
+}
+
+.header-text {
+  line-height: 1.2rem;
+}
+
+.header-text p {
+}
+
+.custom-text {
+  font-size: 1.2rem;
+  color: #8695A3;
+}
